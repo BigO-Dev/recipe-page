@@ -1,0 +1,56 @@
+:root {
+  /* Colors */
+  --clr-dark-charcoal: hsl(24, 5%, 18%);
+  --clr-raspberry: hsl(332, 51%, 32%);
+  --clr-brandy-red: hsl(14, 45%, 36%);
+  --clr-wenge-brown: hsl(30, 10%, 34%);
+  --clr-eggshell: hsl(30, 54%, 90%);
+  --clr-white-coffee: hsl(30, 18%, 87%);
+  --clr-snow: hsl(330, 100%, 98%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --ff-heading: 'Young Serif', serif;
+  --ff-body: 'Outfit', sans-serif;
+
+  --fs-heading-s: 20px;
+  --fs-heading-m: 28px;
+  --fs-heading-l: 40px;
+  --fs-body: 1rem;
+
+  --fw-reg: 400;
+  --fw-med: 600;
+  --fw-bold: 700;
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  color: var(--clr-dark-charcoal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-heading);
+  line-height: 1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
