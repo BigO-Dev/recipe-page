@@ -76,7 +76,9 @@ h6 {
 }
 
 .card__prep-info {
-  margin-block: 2rem;
+  background-color: rgba(206, 17, 38, 0.05);
+  border-radius: 12px;
+  margin: 32px 0;
   padding: 28px;
 }
 
@@ -104,6 +106,9 @@ h6 {
   font-weight: var(--fw-bold);
   color: var(--clr-wenge-brown);
   margin-left: 16px;
+}
+
+.card__ingredients-info {
 }
 
 .card__prep-info .attribution {
