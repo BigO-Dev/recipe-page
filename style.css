@@ -76,9 +76,9 @@ h6 {
 }
 
 .card__prep-info {
-  background-color: rgba(206, 17, 38, 0.05);
+  background-color: var(--clr-snow);
   border-radius: 12px;
-  margin: 32px 0;
+  margin: 16px 0;
   padding: 28px;
 }
 
@@ -91,24 +91,45 @@ h6 {
 
 .card__prep-info ul {
   list-style: none; /* Remove default bullets */
+  margin-left: 8px;
 }
 
-.card__prep-info ul li::before {
+.card__prep-info li::before {
   content: '•'; /* Add your own bullet */
   color: var(--clr-raspberry);
   font-weight: 800;
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (adjust as needed) */
-  margin-left: 8px; /* Also needed for space (adjust as needed) */
+  margin-right: 16px; /* Also needed for space (adjust as needed) */
 }
 
 .card__prep-info li span {
   font-weight: var(--fw-bold);
   color: var(--clr-wenge-brown);
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 
 .card__ingredients-info {
+  margin: 16px 0;
+}
+
+.card__ingredients-info h2 {
+  color: var(--clr-brandy-red);
+  margin-bottom: 24px;
+}
+
+.card__ingredients-info ul {
+  list-style: none;
+  margin-left: 8px;
+}
+
+.card__ingredients-info li::before {
+  content: '•';
+  color: var(--clr-brandy-red);
+  font-weight: 800;
+  display: inline-block;
+  width: 1em;
+  margin-right: 8px;
 }
 
 .card__prep-info .attribution {
