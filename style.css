@@ -36,7 +36,13 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-body);
   line-height: 1.5;
+  background-color: var(--clr-snow);
   color: var(--clr-dark-charcoal);
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -47,12 +53,6 @@ h5,
 h6 {
   font-family: var(--ff-heading);
   line-height: 1;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .attribution {
