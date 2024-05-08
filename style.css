@@ -37,7 +37,7 @@ body {
   font-size: var(--fs-body);
   font-weight: var(--fw-reg);
   line-height: 1.5;
-  background-color: var(--clr-white-coffee);
+  background-color: var(--clr-eggshell);
   color: var(--clr-dark-charcoal);
   max-width: 100%;
   height: auto;
