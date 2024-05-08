@@ -202,6 +202,14 @@ span {
   font-weight: var(--fw-med);
 }
 
+.attribution {
+  margin-bottom: 0.5rem;
+}
+
+. .attribution a {
+  color: var(--clr-raspberry);
+}
+
 @media screen and (max-width: 23.4375rem) {
   body {
     padding: 1.25rem;
