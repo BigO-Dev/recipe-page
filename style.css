@@ -35,8 +35,9 @@
 body {
   font-family: var(--ff-body);
   font-size: var(--fs-body);
+  font-weight: var(--fw-reg);
   line-height: 1.5;
-  background-color: var(--clr-snow);
+  background-color: var(--clr-white-coffee);
   color: var(--clr-dark-charcoal);
   max-width: 100%;
   height: auto;
@@ -51,6 +52,7 @@ h1,
 h2,
 h3 {
   font-family: var(--ff-heading);
+  font-weight: normal;
 }
 
 span {
@@ -88,6 +90,7 @@ span {
 
 .card__prep-info h3 {
   font-family: var(--fs-body);
+  font-weight: var(--fw-bold);
   color: var(--clr-raspberry);
 }
 
